@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logolink {
+    max-width: 203px;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #89B13E;
+    position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav #myLinks a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* Style navigation menu links */
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: #0F4F75;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logo {
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 203px;
+    height: 103px;
+    border-radius: 0px
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    background-color: #89B13E;
+    color: #0F4F75;
+}
+
+button {
+    background-color: white;
+    color: #89B13E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue {
+    color: #0F4F75;
+}

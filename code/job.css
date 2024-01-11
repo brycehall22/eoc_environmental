@@ -1,0 +1,174 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logolink {
+    max-width: 203px;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #89B13E;
+    position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav #myLinks a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* Style navigation menu links */
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: #0F4F75;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logo {
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 203px;
+    height: 103px;
+    border-radius: 0px
+}
+
+.allJobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    float: left;
+}
+
+.main-content {
+    background-color: #89B13E;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #0F4F75;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form h3 {
+    color: #0F4F75;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #0F4F75;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #89B13E;
+}
+
+.allJobs {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #0F4F75;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #89B13E;
+    color: white;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+.filter-form {
+    margin-bottom: 20px;
+}
+
+.file-input-container {
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.file-label {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
